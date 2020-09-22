@@ -51,6 +51,8 @@ related that happens locally on your computer.
 
 [Git push from different ssh](GIT_PUSH_FROM_DIFFERENT_SSH.md)
 
+[Add gpg key to git](../gnugpg/add_gpg_git.md)
+
 ## More Tutorials
 
 There are more tutorials written in this repo related to `git`.
