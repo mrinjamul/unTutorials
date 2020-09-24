@@ -1,4 +1,4 @@
-![Image of Octacat](images/octocat.png)
-![Git](images/git.png)
-![GPG](images/gpg.png)
-![Oh My Zsh](images/zsh.png)
+![Image of Octacat](https://raw.githubusercontent.com/mrinjamul/unixTutorials/master/docs/images/octocat.png)
+![Git](https://raw.githubusercontent.com/mrinjamul/unixTutorials/master/docs/images/git.png)
+![GPG](https://raw.githubusercontent.com/mrinjamul/unixTutorials/master/docs/images/gpg.png)
+![Oh My Zsh](https://raw.githubusercontent.com/mrinjamul/unixTutorials/master/docs/images/zsh.png)
