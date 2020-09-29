@@ -47,6 +47,8 @@ related that happens locally on your computer.
 
 [Git temporary commits](TEMPORARY_COMMITS.md)
 
+[Syncing a fork](Syncing_a_fork_UPSTREAM.md)
+
 [Generate ssh key for Git](GENERATING_SSH_KEY.md)
 
 [Git push from different ssh](GIT_PUSH_FROM_DIFFERENT_SSH.md)
