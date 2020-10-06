@@ -207,3 +207,5 @@ let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 
 " Coc Prettier
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+" coc.nvim extensions
+let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-json', 'coc-prettier', 'coc-tsserver']
