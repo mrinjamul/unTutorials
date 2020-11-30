@@ -8,3 +8,15 @@
 	branch = auto
 [cola]
 	spellcheck = false
+[core]
+    excludesfile = /home/$USER/.gitignore
+[alias]
+    st = status -sb
+    last = log -1 HEAD --stat
+    ll = log --oneline
+    scommit = commit -S -m
+    dv = difftool -t vimdiff -y
+    gl = config --global -l
+    se = !git rev-list --all | xargs git grep -F
+    aa = add -A
+    sloc = !git ls-files | xargs wc -l

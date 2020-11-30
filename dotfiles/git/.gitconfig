@@ -1,7 +1,7 @@
 [user]
 	name = Injamul Mohammad Mollah
 	email = mrinjamul@gmail.com
-	signingkey = C2C4311DA84D35EE11D279D1D6CD597F29ADABE3
+	signingkey = []
 [color]
 	ui = true
 	status = auto
@@ -10,3 +10,13 @@
 	spellcheck = false
 [core]
 	excludesfile = /home/injamul/.gitignore
+[alias]
+	st = status -sb
+	last = log -1 HEAD --stat
+	ll = log --oneline
+	scommit = commit -S -m
+	dv = difftool -t vimdiff -y
+	gl = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+	aa = add -A
+	sloc = !git ls-files | xargs wc -l
