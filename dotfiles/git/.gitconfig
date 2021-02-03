@@ -1,7 +1,7 @@
 [user]
 	name = Injamul Mohammad Mollah
 	email = mrinjamul@gmail.com
-	signingkey = []
+    signingkey = []
 [color]
 	ui = true
 	status = auto
@@ -20,3 +20,4 @@
 	se = !git rev-list --all | xargs git grep -F
 	aa = add -A
 	sloc = !git ls-files | xargs wc -l
+	clb = clone --bare

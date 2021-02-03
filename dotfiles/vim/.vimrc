@@ -80,7 +80,13 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 
+" This plugin shows icons in vim
+Plug 'ryanoasis/vim-devicons'
+
 call plug#end()
+
+" UTF-8 encoding
+set encoding=UTF-8
 
 " Key Mapper
 nmap - <Plug>(choosewin)
@@ -103,15 +109,15 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
 
 " Airline Start ------------------------------
 
-let g:airline_powerline_fonts = 0
+let g:airline_powerline_fonts = 1
 let g:airline_theme = 'bubblegum'
 let g:airline#extensions#whitespace#enabled = 0
 let g:coc_disable_startup_warning = 1
 " Fancy Symbols!!
-let fancy_symbols_enabled=0
+let fancy_symbols_enabled = 0
 
 if fancy_symbols_enabled
-    let g:webdevicons_enable = 1
+    let g:webdevicons_enable = 0
 
     " custom airline symbols
     if !exists('g:airline_symbols')
@@ -125,7 +131,7 @@ if fancy_symbols_enabled
     let g:airline_symbols.readonly = '⭤'
     let g:airline_symbols.linenr = '⭡'
 else
-    let g:webdevicons_enable = 0
+    let g:webdevicons_enable = 1
 endif
 " Airline end----------------------------------
 
@@ -201,3 +207,5 @@ let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 " coc.nvim extensions
 let g:coc_global_extensions = ['coc-html', 'coc-css', 'coc-json', 'coc-prettier', 'coc-tsserver']
+" snipmate
+let g:snipMate = { 'snippet_version' : 1  }
