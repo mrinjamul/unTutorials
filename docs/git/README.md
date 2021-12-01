@@ -35,6 +35,8 @@ related that happens locally on your computer.
 
 [Git Branches and merge](BRANCH_and_MERGE.md)
 
+[Git Branches and change main to new](CHANGE_BRANCH.md)
+
 [Git Tags](TAGS.md)
 
 [Git Inspect and Compare](INSPECT_and_COMPARE.md)
